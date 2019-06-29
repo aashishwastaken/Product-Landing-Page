@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css?family=Concert+One&display=swap");
+
+body {
+  font-size: 1.4rem;
+  font-color: black;
+  background: #5dc2f4;
+  font-family: "Concert One", cursive;
+  text-align: center;
+
+ 
+}
+
+#productpage {
+  position: relative;
+}
+
+header {position:fixed;
+  background: #0080c4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+  top:0px;
+}
+
+#container{
+  height:100px;
+ 
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#form {
+  width: 100%;
+  background: #2eb4f2;
+  margin: 5px;
+  padding-bottom: 10px;
+}
+
+.butn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 20px;
+  background: red;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+#email {
+  font-size: 1em;
+  width: 20rem;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+#Features {
+  display: grid;
+margin-bottom:20px;
+
+}
+#grid {
+  display: flex;
+  justify-content: center;
+}
+
+#Features .icon {
+  display: flex;
+  color: red;
+  height: 160px;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  font-size: 4em;
+}
+
+#Features .desc {
+  display: block;
+  padding: 0px;
+  height: 130px;
+  width: 600px;
+  text-align: left;
+  justify-content: center;
+}
+
+#price{
+  display:flex;
+  text-align:center;
+  justify-content:space-around;
+
+  
+}
+
+#beginner,#expert,#intermediate{ 
+
+ width:30%;
+  background:#9fdefc;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border: 2px solid black;
+ 
+}
+
+#price-title{
+ background-color: #F47E7C;
+
+  padding: 15px 0px;
+  width: 100%;
+
+
+}
+
+#price-desc{
+  background:;
+   padding:10px;
+  text-align:center;
+font-style:italic;
+  font-family:sans-serif;
+
+}
+
+#footer{display:flex;
+  background:#0080C4;
+  padding:10px;
+  margin-top:50px;  justify-content:flex-end;
+}
+
+.foot{
+  display:flex;
+  justify-content:flex-end;
+
+
+ 
+}
+
+#footnote{font-size:1rem;
+  font-family:sans-serif;
+ 
+  margin-top:-18px;
+}
+
+#boxx{
+  padding:20px;
+  
+}
+* {
+  margin-left: 0;
+  padding: 0;
+
+}
+
+
+@media (max-width:600px){
+  
+  #header , #footer{
+  flex-wrap:wrap;
+    justify-content:center;
+    
+  }
+  #logo{
+    width:100%;
+  }
+  #logo > img {
+    margin: 0 auto;
+  }
+  
+  .nav, .foot{
+    display:block;
+  }
+  
+  .butn{
+    width:100%;
+    font-size:1rem;
+    text-align:center;
+  }
+  
+  #email, #submit{
+    width:100%;
+    
+  }
+  body{
+    font-size:15px;
+  }
+  
+  #Features .icon{
+    display:none;
+  }
+  
+  #Features{display:block;}
+  
+  
+  #grid .desc{background:; 
+   display:block;
+    width:100%;
+    margin-bottom:15px;
+    margin-top:-2.4rem;
+  }
+  
+  #video{
+    width:100%;
+  }
+ 
+  #container{
+  height:150px;
+ 
+}
+  
+  #price{
+    display:block;
+  }
+  
+  #beginner,#expert,#intermediate{ 
+  width:100%;
+  }
+}
